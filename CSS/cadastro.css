@@ -1,0 +1,121 @@
+
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+  }
+  
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  a {
+    color: darkblue ;
+  }
+  
+  body {
+    padding-top: 5vh;
+    background-image: url('../Imagens/Apple\ TV\ -\ UEFA\ Champions\ League.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+  /* form */
+  #main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+    user-select: none;
+  }
+  
+  #main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+  }
+  
+  .spacing {
+    margin-right: 2.5%;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+  }
+  
+  input:focus {
+    border-color: darkblue;
+  }
+  
+  input[type="submit"] {
+    background-color: darkblue;
+    user-select: auto;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(24, 139, 233);
+    border-radius: 20px; 
+}
+  
+  #agreement {
+    margin-right: 5px;
+    margin-bottom: 45px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
+    margin-top: -38px; /* Adiciona um espaçamento entre a caixa de seleção e a mensagem de erro */
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .template {
+    display: none;
+  }
+  
+  #btn-submit {
+    margin-top: 40px; /* Adiciona espaço entre o botão de envio e os elementos acima */
+  }
