@@ -63,7 +63,9 @@
     border-radius: 10px;
     background-color: rgb(24, 139, 233);
     font-family: "Berlin Sans FB Demi", sans-serif;
+    margin-left: 10px; /* Adicione um espaço entre o último link e o submenu */
 }
+
 
 .Banner {
     z-index: -1;

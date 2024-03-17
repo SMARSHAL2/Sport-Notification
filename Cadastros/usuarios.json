@@ -1,14 +1,26 @@
 [
   {
-    "email": "tainara@gmail.com",
-    "name": "Tainara",
-    "lastname": "Furlanetto",
-    "password": "TaiLinda"
+    "email": "jalissonternus@gmail.com",
+    "name": "Jalisson",
+    "lastname": "Ternus",
+    "password": "Jali123"
+  },
+  {
+    "email": "jalissonternus@gmail.com",
+    "name": "Jalisson",
+    "lastname": "Ternus",
+    "password": "Jalisson1"
+  },
+  {
+    "email": "geslonGish@gmail.com",
+    "name": "Geslon",
+    "lastname": "Gish",
+    "password": "Geslon123"
   },
   {
     "email": "tainara@gmail.com",
     "name": "Tainara",
     "lastname": "Furlanetto",
-    "password": "TaiLinda"
+    "password": "Tai123"
   }
 ]
